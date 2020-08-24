@@ -1,0 +1,576 @@
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url('IMG/bg.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.nav-item a{
+	color: #fff!important;
+	font-size: 14px;
+	font-weight: 450;
+	letter-spacing: 3.5px;
+}
+
+
+.navbar{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #171717;
+}
+
+.navbar-brand{
+	border: 3px solid #fff;
+	padding: 5px;
+}
+
+.main_text{
+	position: relative;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -45%);
+}
+
+.welcome_text h3{
+	font-size: 24px;
+	font-weight: 450;
+	letter-spacing: 2px;
+}
+
+
+.welcome_text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome_text h3{
+	padding-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.line{
+	width: 100%;
+	max-width: 8rem;
+	height: 0.10rem;
+	background-color: #fff;
+	position: relative;
+}
+
+.logo_text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.logo_text .navbar-brand{
+	height: 100px;
+	position: relative;
+	border: 7px solid #fff;
+	font-size: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+.discription{
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.discription h3{
+	font-size: 18px;
+	font-weight: 550;
+	letter-spacing: 5px;
+	word-spacing: 7px;
+	margin: 0 10px;
+}
+
+.line1{
+	width: 100%;
+	max-width: 2.5rem;
+	height: 0.10rem;
+	background-color: #fff;
+	position: relative;
+}
+
+.image-group{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1.5rem;
+}
+
+.image-group img{
+	max-width: 100%;
+	max-width: 100%;
+}
+
+
+.restaurant_story .global_heading{
+	padding: 25px 0;
+}
+
+.restaurant_story .restaurant_descrip{
+	padding-top: 3rem;
+	margin-bottom: 0;
+}
+
+.our_story{
+	position: relative;
+	text-align: center;
+}
+
+.global_heading .sub_heading{
+	font-size: 3rem;
+	letter-spacing: 2px;
+}
+
+
+.global_heading .headline{
+	font-size: 24px;
+}
+
+.global_heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub_heading{
+	width: 100%;
+	max-width: 15rem;
+	height: auto;
+	margin: auto;
+	border: 3px solid #202020;
+}
+
+.btn{
+	border: 1.3px solid transparent;
+	background: orange;
+	color: #fff;
+}
+
+.restaurant_descrip p{
+	letter-spacing: 1px;
+	white-space: 2px;
+}
+
+
+.restaurant_story{
+	position: relative;
+	margin-top: -50px;
+	padding: 50px;
+}
+
+/*simple craft*/
+
+.simple-craft{
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+				url("IMG/s1.jpeg") center no-repeat;
+	background-size: cover;
+	/*background-size: 100% 100%;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.simple-craft h1{
+	font-size: 62px;
+	font-weight: 750;
+	letter-spacing: 2px;
+	white-space: 2px;
+}
+
+.simple-craft span{
+	width: 100%;
+	max-width: 10rem;
+	border: 4px solid yellow;
+}
+
+/*our-sweetness*/
+
+.sweet_heading .sub_heading{
+	width: 100%;
+	max-width: 24rem;
+	height: auto;
+	margin: auto;
+	border: 4px solid #202020;
+}
+
+.Our-Sweetness p{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.3rem;
+	font-weight: 350;
+}
+
+.Our-Sweetness{
+	margin-bottom: 50px;
+}
+
+
+/*special-offers*/
+
+.special-offers{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('IMG/bg4.jpeg') center no-repeat;
+	background-size: cover;
+}
+
+
+.card{
+	position: relative;
+	margin-top: 25px;
+	top: 50%;
+	width: 100%;
+	max-width: 250px;
+	height: 17rem;
+	border-style: none;
+	box-shadow: 17px 17px 10px 2px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+	-webkit-transform: translatey(-20px);
+	   -moz-transform: translatey(-20px);
+	    -ms-transform: translatey(-20px);
+	     -o-transform: translatey(-20px);
+	        transform: translatey(-20px);
+	transition: 0.3s ease;
+}
+
+.card img{
+	height: 200px!important;
+}
+
+.card h2{
+	font-size: 22px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+.card h4{
+	font-size: 14px;
+	letter-spacing: 1.2px;
+}
+
+.subspeci_heading
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    border-bottom: 3.5px solid #171717;
+    text-align: center;
+}
+
+/*our-chef*/
+
+.our-chef{
+	width: 70%;
+	height: auto;
+	border: 2px solid #fff;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	padding: 20px 25px;
+}
+
+.our-chef h2{
+	font-size: 42px;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	font-weight: 550;
+	position: relative;
+}
+
+.our-chef h2::before{
+	content: '';
+	position: absolute;
+	border-bottom: 3.5px solid orange;
+	width: 100%;
+	max-width: 100px;
+	bottom: 0;
+}
+
+/*.our-chef h2::after{
+	content: '';
+	position: absolute;
+	border-top: 3.5px solid red;
+	width: 100%;
+	max-width: 20px;
+	bottom: 0;
+	left: 110px;
+}*/
+
+
+.our-chef h5{
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 28px;
+	letter-spacing: 1px;
+	font-weight: 550;
+}
+
+/*testimonial*/
+
+.bgteam-img{
+	width: 100%;
+	height: 60vh;
+	background: linear-gradient(rgba(16,29,44,.50),rgba(16,29,44,.50)),
+				url("IMG/bg.jpeg") center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+.Team-Member .headings{
+	margin: 25px 0;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-item img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 25px 25px;
+}
+
+.carousel-item{
+	text-align: center;
+}
+
+
+.carousel{
+	position: unset;
+}
+
+.carousel-caption{
+    width: 100%;
+    height: 100%;
+    position: initial;
+    color: #fff;
+}
+
+.carousel-caption h5{
+	font-style: italic;
+	font-size: 20px;
+	font-weight: 250;
+}
+
+.carousel-caption p{
+	font-style: normal;
+	font-size: 16px;
+	font-weight: 300;
+	color: #ff8929;
+}
+
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+/*testimonial end*/
+
+
+/*newsletter*/
+
+
+/*.newslatter{
+	width: 100%;
+	height: auto;
+	margin: 80px auto;
+}*/
+
+.firstpart{
+	background: #202020;
+}
+
+.firstpart .container{
+	padding: 20px 20px;
+}
+
+
+.footer{
+	margin-top: -20px;
+}
+
+
+.fotr-head h2{
+	font-size: 24px;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.fotr-head h2::before{
+	content: '';
+	position: absolute;
+	border-bottom: 2.5px solid #fff;
+	width: 100%;
+	max-width: 100px;
+	bottom: 0;
+	margin-bottom: -3px;
+}
+
+
+.news-input{
+	border-radius: 10px 10px!important;
+	min-width: 70px;
+	min-height: 35px;
+}
+
+.input-group-text{
+	color: #fff!important;
+	background: #50d1c0!important;
+	border-radius: 10px 10px!important;
+	min-width: 70px;
+	min-height: 35px;
+}
+.input-group-text:hover{
+	background: #fff;
+	color: #50d1c0;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+.firstpart h1{
+	font-size: 22px;
+}
+
+.firstpart a i{
+	width: 100%;
+	max-width: 40px;
+	max-height: 40px;
+	color: #fff;
+	padding: .8rem 2rem;
+	opacity: .5;
+	transition: color .5s;
+}
+
+.firstpart a i:hover{
+	color: #c59d5f;
+	opacity: 1;
+}
+
+.newsletter-form{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.newsletter-input{
+	width: 100%;
+	max-width: 25rem;
+	padding: .7rem;
+	border-radius: .4rem;
+}
+
+.newsletter-btn{
+	background-color: transparent;
+	border: none;
+	color: #202020;
+	cursor: pointer;
+	font-size: 1.6rem;
+	padding: 1px .6rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+.card{
+	height: 17rem;
+}
+
+}
+
+/*// Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+/*max-width*/
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.card{
+	margin-top: -50px;
+	height: 17rem;
+}
+
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/
+
